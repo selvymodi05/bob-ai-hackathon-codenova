@@ -1,4 +1,4 @@
-# 🚀 [Your Project Title Here]
+# Threat Intelligence Correlation and Alert Prioritisation Assistant
 
 > ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
 
@@ -8,10 +8,10 @@
 
 | Field | Value |
 |---|---|
-| **Team Name** | [Your Team Name] |
+| **Team Name** | [codenova] |
 | **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
-| **Members** | [Name 1], [Name 2], [Name 3] |
+| **Team Lead** | [selvy] — [email@ibm.com] |
+| **Members** | [Dhwani], [Shrey], [Krishna] |
 
 ---
 
@@ -19,7 +19,7 @@
 
 > In 2–3 sentences: What problem does your project solve? Who experiences this problem?
 
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
+[Security teams receive threat intelligence and security alerts from multiple sources. Manually correlating these sources is time-consuming and can make it difficult to identify high-priority threats quickly. Analysts need a unified way to correlate threat information and prioritize alerts based on their potential risk.]
 
 ---
 
@@ -27,18 +27,21 @@
 
 > In 2–3 sentences: What did you build? How does it solve the problem above?
 
-[Describe your solution clearly. Explain the core mechanism — what makes it work.]
+[Our solution is a Threat Intelligence Correlation and Alert Prioritisation Assistant that brings threat intelligence and security alerts together, correlates related indicators and events, and helps analysts identify the most important threats first. It uses AI-assisted analysis to provide contextual insights and support faster security investigation and response.]
 
 ---
 
 ## ✨ Key Features
 
-- **Feature 1:** [Brief description — e.g., "Real-time anomaly detection using watsonx.ai"]
-- **Feature 2:** [Brief description]
-- **Feature 3:** [Brief description]
-- **Feature 4:** [Optional]
-- **Feature 5:** [Optional]
+- **Multi-source Threat Intelligence Ingestion and Correlation** — Collects threat intelligence from multiple sources and correlates related information to identify meaningful threat patterns.
 
+- **Automated Correlation of Indicators, Alerts, and Threat Intelligence Data** — Automatically connects related indicators, alerts, and intelligence records to reduce manual analysis.
+
+- **Alert Prioritisation Based on Threat Severity and Contextual Risk** — Ranks alerts using threat severity and contextual risk so analysts can focus on the most important threats first.
+
+- **AI-Powered Threat Analysis and Investigation Assistance** — Uses AI-assisted analysis to help security analysts understand threats and investigate suspicious activity.
+
+- **Faster Security Response** — Combines correlation, prioritisation, and AI-assisted analysis to help reduce investigation time and support quicker security response.
 ---
 
 ## 🛠️ Tech Stack
