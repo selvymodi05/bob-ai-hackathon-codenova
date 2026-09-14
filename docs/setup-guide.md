@@ -6,10 +6,10 @@
 
 Before you begin, ensure you have the following installed:
 
-- [ ] [e.g., Python 3.11+]
-- [ ] [e.g., Node.js 18+]
-- [ ] [e.g., Docker Desktop]
-- [ ] [e.g., An IBM Cloud account with watsonx.ai access]
+- [ ] Python 3.11+
+- [ ] Git
+- [ ] An IBM Cloud account with watsonx.ai access
+- [ ] IBM Bob
 
 ## Environment Variables
 
@@ -17,7 +17,6 @@ Copy `.env.example` to `.env` and fill in the values:
 
 ```bash
 cp .env.example .env
-```
 
 | Variable | Description | Required |
 |---|---|---|
@@ -28,10 +27,21 @@ cp .env.example .env
 
 ## Installation
 
+For your project, keep the variables that your actual code needs.
+
+⚠️ **Never put the actual API key/password in GitHub.** Put only the variable names in `.env.example`; keep the real `.env` local.
+
+---
+
+## Installation
+
+### 1. Clone the repository
+
 ```bash
-# 1. Clone the repository
-git clone https://github.com/[your-org]/[your-repo].git
-cd [your-repo]
+git clone https://github.com/selvymodi05/bob-ai-hackathon-codenova.git
+cd bob-ai-hackathon-codenova
+```bash
+
 
 # 2. Install backend dependencies
 [your command — e.g.: pip install -r requirements.txt]

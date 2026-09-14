@@ -2,20 +2,18 @@
 
 ## Background
 
-[Describe the broader context. What domain or industry does this problem belong to? What situation creates the problem?]
+[Defence operations generate large volumes of threat information from multiple domains, including SIEM systems, satellite feeds, cyber sensors, and intelligence reports. This information arrives in different formats and across disconnected systems, making it difficult for defence analysts to build a unified picture of emerging threats.]
 
 ## The Problem
 
-[State the problem clearly and specifically. Avoid vague statements like "things are slow" — instead say "Operations teams spend an average of 45 minutes per incident diagnosing pipeline failures because logs are scattered across 6 different tools."]
-
+[Defence analysts receive thousands of alerts and intelligence records every day from SIEM systems, satellites, cyber sensors, and intelligence reports. The volume and format differences make manual correlation extremely difficult, causing analysts to spend valuable time processing alerts and increasing the risk of missing genuine threats among large numbers of false positives.]
 ## Who is Affected
 
-[Describe the specific user or persona experiencing this problem. Be concrete — not "developers" but "backend engineers managing CI/CD pipelines in enterprises with 50+ microservices."]
-
+[The primary users are defence and cybersecurity analysts responsible for monitoring, correlating, and investigating threats across cyber, physical, and intelligence domains. Command teams and decision-makers are also affected because they depend on analysts to provide clear, timely, and actionable threat assessments.]
 ## Why It Matters
 
-[What is the cost of this problem? Lost time? Revenue? Safety risk? Frustration? Quantify if possible.]
+[Modern adversaries can operate simultaneously across cyber, physical, and intelligence domains, making cross-domain awareness increasingly important. Threat assessment that takes hours can delay critical decisions, while excessive false positives consume analyst attention. The project aims to reduce threat assessment time from hours to minutes and reduce alert noise through intelligent filtering and correlation.]
 
 ## Why Existing Solutions Fall Short
 
-[Briefly explain what people currently do and why it doesn't fully solve the problem. This sets up why your solution is needed.]
+[Existing security and intelligence systems typically operate within individual domains or data sources, leaving analysts to manually connect information across different systems and formats. This makes it difficult to identify coordinated attack patterns and maintain a single operational picture. A unified correlation approach is needed to bring cyber, physical, and intelligence alerts together and prioritize the threats that require immediate attention.]
