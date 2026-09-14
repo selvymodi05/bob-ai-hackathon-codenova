@@ -16,11 +16,11 @@ team:
     email: "selvymodi5@gmail.com"                          # REQUIRED — e.g., "alice.chen@ibm.com"
   members:
     - name: "Dhwani padaliya"                         # REQUIRED — Team member 1
-      email: ""
+      email: "25dcs065@charusat.edu.in"
     - name: "Shrey Modi"                         # Add more members by copying the two lines above
-      email: ""
+      email: "25dcs061@charusat.edu.in"
     - name: "Krishna Mulchandani"
-      email: ""
+      email: "25dcs062@charusat.edu.in"
 
 submission:
   title: "Threat intelligence correlation & Alert prioritisation Assistant"                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
